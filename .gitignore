@@ -1,0 +1,25 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (too large for git)
+data/raw/*
+data/landmarks/*
+*.mp4
+*.npy
+*.npz
+
+# Model weights and outputs
+*.pt
+*.pth
+checkpoints/
+runs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+!data/raw/.gitkeep
+!data/landmarks/.gitkeep
